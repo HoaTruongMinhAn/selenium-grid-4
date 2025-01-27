@@ -1,3 +1,3 @@
 set ProjectPath=%~dp0
-java -jar -Dwebdriver.chrome.driver="%ProjectPath%\browserDrivers\chromedriver.exe" -Dwebdriver.gecko.driver="%ProjectPath%\browserDrivers\geckodriver.exe"  -Dwebdriver.edge.driver="%ProjectPath%\browserDrivers\msedgedriver.exe" "%ProjectPath%\libraries\selenium-server-standalone-3.141.59.jar"
+java -jar "%ProjectPath%\libraries\selenium-server-4.21.0.jar" standalone
 pause

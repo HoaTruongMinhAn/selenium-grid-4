@@ -1,2 +1,1 @@
-set ProjectPath=%~dp0
-java -jar -Dwebdriver.chrome.driver="%ProjectPath%\chromedriver.exe" -Dwebdriver.gecko.driver="%ProjectPath%\geckodriver.exe" -Dwebdriver.edge.driver="%ProjectPath%\msedgedriver.exe" selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.9:4444/grid/register/ -port 5555
+java -jar selenium-server-4.22.0.jar node --hub http://192.168.1.11:4444 --selenium-manager true
